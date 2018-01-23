@@ -46,7 +46,7 @@ void loop(){
 }
 
 void menu() {
-    gb.display.println("Mode serveur\nA pour lancer");
+    gb.display.println("Agaruino !\nA pour lancer");
     if (gagne) gb.display.println("Ah, quelqu'un a gagne");
     if (gb.buttons.pressed(BTN_A))
     {
